@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python (in case future skills ship helper scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node (same reason)
+node_modules/
+
+# Local scratch
+.scratch/
+tmp/
+*.log
+
+# User-specific corpus files that should never be committed
+# (voice-critic and similar skills store personal edit data locally)
+**/corpus.md
+!**/example-corpus.md
